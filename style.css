@@ -1,0 +1,31 @@
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+body .inputContainer {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .inputContainer input {
+  font-size: 1rem;
+  border: 3px solid #007385;
+  border-radius: 3px;
+}
+
+body .inputContainer input::-webkit-input-placeholder {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+body .item {
+  padding: 4px;
+}
+
+body .item-account,
+body .item-service {
+  font-size: 80%;
+  color: rgba(0, 0, 0, 0.5);
+}
+/*# sourceMappingURL=style.css.map */
